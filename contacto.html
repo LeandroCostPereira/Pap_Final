@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contactos</title>
+    <link rel="shortcut icon" type="image/x.png" href="Imagens/Background-Recuperado.png"/>
+    <link rel="stylesheet" href="Style.css" type="text/css">
+    <link rel="stylesheet" href="Style_Colors.css" type="text/css">
+</head>
+<body>
+    <!-- menu -->
+    <div class="menu">
+        <ul id="list">
+            <li class="item"><a href="index.html" class="link">Inicio</a></li>
+            <li class="item"><a href="quem_somos.html" class="link">Quem somos</a></li>
+            <li class="item"><a href="contacto.html" class="link">Contactos</a></li>
+            <li class="item"><a href="leilao.php" class="link">Leilão</a></li>
+            <li class="item"><a href="iniciar_sessao.html" class="link">Iniciar Sessão</a></li>
+        </ul>
+        <img src="Imagens/nome.png" alt="logo da empresa TransAuction" class="img1">
+    </div>
+    <!-- Fim menu -->
+
+    <!-- Bloco esquerdo Info -->
+    <div class="Bloco_esquerdo">
+    <p>
+        <strong>Morada</strong><br>
+        Rua do gato preto nº4 <br> Zona indusdrial de Porto De Mos <br>
+        2104-151 Porto de Mos <br>
+        
+       <strong> Tel:</strong> (+351) 912 365 478 <br>
+       <strong>Fax:</strong>  (+351) 218 304 587 <br>
+
+       <strong>Email:</strong> NomeDaEmpresa@gmail.com <br>
+       <strong>GPS:</strong> <br>
+    </p>
+    <p>
+        <strong>Direção Financeira e Administrativa</strong> <br>
+        <strong>Email:</strong>NomeDaSecçao@gmail.com <br>
+    </p>
+    <p>
+        <strong>Recursos Humanos </strong> <br>
+        <strong>Email:</strong>NomeDaSecçao@gmail.com <br> 
+    </p>
+    <p>
+        <strong> Garantia de Qualidade</strong> <br>
+       <strong> Email:</strong>NomeDaSecçao@gmail.com <br>
+    </p>
+    <p>
+       <strong> Comercial</strong> <br>
+       <strong> Email:</strong>NomeDaSecçao@gmail.com <br>
+    </p>
+    </div>
+    <!-- Fim Bloco esquerdo Info -->
+
+    <!-- Bloco direito form -->
+    <div class="Bloco_direito">
+    <form action="php/enviar_email.php" method="POST" id="papa">
+        <Label for="">Nome Completo:</Label><br>
+        <input type="text" name="nome" id="" placeholder="Nome Completo"><br>
+        <label for="">Email:</label><br>
+        <input type="email" name="email" id="" placeholder="Email"><br>
+        <label for="">Assunto:</label><br>
+        <input type="text" name="assunto" id="" placeholder="Assunto"><br>
+        <label for="">Menssagem:</label><br>
+        <textarea name="msg" id="" cols="30" rows="10"></textarea><br>
+        <input type="submit" value="Enviar">
+    </form> 
+    </div>
+    <!-- Fim Bloco direito form -->
+
+    <!-- Rodape -->
+    <div class="rodape">
+        <div class="Direita">
+            <p>Sigam nos em:</p><br>
+            <a href="https://www.facebook.com/TransAuctionLda-108867900869630/?view_public_for=108867900869630" class="url cor" > FaceBook</a>
+            <a href="https://www.instagram.com/transauction5/" class="url cor" > Instagram</a>
+            <a href="https://twitter.com/LdaTrans" class="url cor" > twitter</a>
+        </div>
+        <div class="centro">   
+            <p>A nossa app está disponivel para:</p>
+            <h5><a href="#4" class="url cor" >Android</a></h5>
+            <h5><a href="#5" class="url cor" >IOS</a></h5> 
+        </div>
+        <div class="esquerda"> 
+            <p><a href="#6" class="url cor" > Direitos de Autor</a></p>
+        </div>
+    </div>
+    <!-- Fim Rodape -->
+</body>
+</html>
